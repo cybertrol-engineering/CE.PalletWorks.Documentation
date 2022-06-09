@@ -1,6 +1,6 @@
 FROM python:3 as Builder
 
-RUN pip install mkdocs mkdocs-material mkdocs-git-revision-date-plugin pygments pymdown-extensions
+RUN pip install mkdocs mkdocs-material pygments pymdown-extensions
 COPY . .
 RUN mkdocs build --clean --strict
 
