@@ -1,2 +1,7 @@
 
-Cybertrol's Support division is available 24/7 to take care of your immediate needs (active service contract required), and can be reached at: Phone: 763-559-8660 or support@cybertrol.com.
+Contact information for our support team is below. Urgent requests should be directed to the phone line. Pictures and supporting documentation can be sent to the email address. 
+
+|                       |              |
+| --------------------- | -------------|
+| Support Phone Number (24/7/365) |  1-800-554-5104 | 
+| Support Email Address | support@cybertrol.com |
