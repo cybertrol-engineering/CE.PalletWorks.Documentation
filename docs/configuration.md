@@ -1,6 +1,6 @@
 During installation, PalletWorks offers several optional switches to be enabled dependant upon the manufacturing line's requirements. You can see which options are enabled in the Portal Settings page. Below is a list of optional settings configured upon installation:
 
-### Print Provider
+### PrintProvider
 
 PalletWorks is designed to primarily work with two label design and printing solutions: Bartender 2022 Automation Edition and NiceLabel 10 PowerForms Suite. During installation, a PalletWorks installer will select which label printing provider will be configured for automated label printing.
 
