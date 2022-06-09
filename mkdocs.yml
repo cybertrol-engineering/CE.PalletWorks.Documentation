@@ -1,7 +1,5 @@
 site_name: PalletWorks User Guide
 site_url: https://docs.palletworks.app/
-# repo_name: cybertrol-engineering/CE.PalletWorks.Documentation
-# repo_url: https://github.com/cybertrol-engineering/CE.PalletWorks.Documentation
 
 markdown_extensions:
   - pymdownx.tasklist:
@@ -14,17 +12,16 @@ theme:
       - navigation.tabs
   favicon: images/favicon.ico
   palette:
+    - primary: deep orange
     - scheme: default
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to Dark Mode
     - scheme: slate
-      primary: orange
+      primary: deep orange
       toggle:
         icon: material/toggle-switch
         name: Switch to Light Mode
-extra_css:
-  - styles.css
 
 use_directory_urls: false
 
