@@ -1,4 +1,4 @@
-![](index_images/PalletWorks_Logo_Long.jpg)
+![](images/PalletWorks_Logo_Long.jpg)
 
 ## Welcome
 

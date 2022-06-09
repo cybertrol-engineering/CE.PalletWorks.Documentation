@@ -1,4 +1,4 @@
-![](index_images/homepage.jpg)
+![](images/homepage.jpg)
 
 Once you are logged into the Portal, use the main navigation menu on the left to access the PalletWorks features. Administrative functions are locked down to users with admin access, setup at the time of installation. 
 
