@@ -49,7 +49,7 @@ Next, add a Product record for each product you will be producing on your line. 
 | FullPalletQuantityUOM | Unit of Measure to indicate when a pallet is full, eg. ea, lbs, etc. |
 | SampleInterval | Optional field to specify the interval that a Product should be marked as a Sample | 
 
-> Note: All of this information is available to be optionally be printed on your Item Label
+Note: All of this information is available to be optionally be printed on your Item Label
 
 ### Print Mappings
 
