@@ -2,7 +2,7 @@
 
 ## Welcome
 
-Welcome to the PalletWorks User Guide. 
+Welcome to the PalletWorks User Guide. This user guide is intended for end users and operators using PalletWorks in a manufacturing environment.
 
 ## About PalletWorks
 
