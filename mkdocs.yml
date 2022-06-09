@@ -35,6 +35,9 @@ nav:
         - Overview: index.md
         - Installation: installation.md
         - Configuration: configuration.md
+        - Definitions: definitions.md
+        - Status Levels: statuslevels.md
+        - Services: services.md
         - Getting Started: gettingstarted.md
         - Procedures: procedures.md
         - Support: support.md
