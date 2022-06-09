@@ -1,7 +1,9 @@
-![](index_images/83dca82c.png)
+![](index_images/PalletWorks_Logo_Long.jpg)
 
-[![CircleCI](https://circleci.com/gh/cybertrol-engineering/Documentation/tree/master.svg?style=svg&circle-token=8bf406649d23887c5f3f24b88a889ee213ba88d8)](https://circleci.com/gh/cybertrol-engineering/Documentation/tree/master)
+## Welcome
 
-## Introduction
+Welcome to the PalletWorks User Guide. 
 
-PalletWorks Documentation will go here
+## About PalletWorks
+
+PalletWorks is a hardware and software integrated product that labels and records items on a manufacturing production line. PalletWorks supports creating customized labels for items produced and the pallets they stack on. PalletWorks is designed from the ground up to integrate with your existing ERP system, as a seamless production floor to backend data workflow.
