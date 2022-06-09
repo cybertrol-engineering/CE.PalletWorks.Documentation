@@ -1,4 +1,3 @@
-<a id="OrderStatus"></a>
 <b>Order Status Levels</b>
 <ul>
     <li>On Hold - Order that has not started, and should be excluded from auto-starting (if enabled)</li>
@@ -10,7 +9,6 @@
     <li>Send to QC - All Order production information, including any created Pallets and Items have been sent to Quality Control for further examination, and will be excluded from any ERP sends</li>
 </ul>
 
-<a id="PalletStatus"></a>
 <b>Pallet Status Levels</b>
 <ul>
     <li>Ready - Pallet has been created, and available for Items to be stacked on</li>
@@ -22,7 +20,6 @@
     <li>Sent to ERP - Pallet and all stacked Items have been sent to the ERP system as new inventory</li>
 </ul>
 
-<a id="ItemStatus"></a>
 <b>Item Status Levels</b>
 <ul>
     <li>Ready - Item has been created, but has no label</li>

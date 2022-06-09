@@ -1,6 +1,5 @@
 After installation, a PalletWorks Administrator should go through the process of setting up the enviroment in preparation for Orders.
 
-<a id="ProductionLines"></a>
 ### Production Lines
 
 ![](images/productionline-index.jpg)
@@ -15,7 +14,6 @@ Start by hitting "Add Production Line" to set up a line to run Orders on.
 | Location | Optional field for specifying a location with your production area |
 | PLC Line # | This number must match the PLC LineNum value running on the PLC for that line. This connects data to a physical line. |
 
-<a id="Containers"></a>
 ### Containers
 
 ![](images/containers-index.jpg)
@@ -29,7 +27,6 @@ Next, ensure that you have containers properly set up for your Products to use. 
 | Container Name | Enter a name for your container |
 | TareWeight | Enter the tare weight of your container. This will be used for calculating Net Weight on items created. |
 
-<a id="Products"></a>
 ### Products
 
 ![](images/products-index.jpg)
@@ -54,7 +51,6 @@ Next, add a Product record for each product you will be producing on your line. 
 
 > Note: All of this information is available to be optionally be printed on your Item Label
 
-<a id="PrintMappings"></a>
 ### Print Mappings
 
 Lastly, set up the Print Mappings. This matches print jobs coming in from a production line to a specific printer, by job role.
