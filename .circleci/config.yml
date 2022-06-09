@@ -11,7 +11,7 @@ jobs:
       - checkout
       - run:
           name: Install dependencies
-          command: pip install mkdocs mkdocs-material mkdocs-git-revision-date-plugin pygments
+          command: pip install mkdocs mkdocs-material pygments
       - run:
           name: Build docs
           command: mkdocs build --clean --strict #to return an error code on warnings
