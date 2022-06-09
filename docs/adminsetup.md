@@ -55,7 +55,7 @@ Note: All of this information is available to be optionally be printed on your I
 
 Lastly, set up the Print Mappings. This matches print jobs coming in from a production line to a specific printer, by job role.
 
-![](images/printmapping-index.jpg)
+![](images/printmappings-index.jpg)
 
 Select "Add Print Mapping" to add a new mapping.
 
