@@ -33,3 +33,8 @@ plugins:
 nav:
     - Home:
         - Overview: index.md
+        - Installation: installation.md
+        - Configuration: configuration.md
+        - Getting Started: gettingstarted.md
+        - Procedures: procedures.md
+        - Support: support.md
