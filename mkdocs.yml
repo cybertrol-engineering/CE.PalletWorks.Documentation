@@ -38,6 +38,7 @@ nav:
         - Definitions: definitions.md
         - Status Levels: statuslevels.md
         - Services: services.md
+        - Security: security.md
         - Getting Started: gettingstarted.md
         - Procedures: procedures.md
         - Support: support.md
