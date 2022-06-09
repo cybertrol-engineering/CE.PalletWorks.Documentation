@@ -1,5 +1,3 @@
-## PalletWorks Services
-
 The PalletWorks product consists of a collection of the following services:
 
 <ul>

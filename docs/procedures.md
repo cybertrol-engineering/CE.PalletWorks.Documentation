@@ -1,5 +1,3 @@
-## Procedures
-
 ### Start of Day Procedures
 
 At the beginning of your production day, at least one Order must be added and marked as Running, so that the system knows which Order information to associate newly created Items to. Orders can be manually added through the Portal, or automatically added through an optionally included Integration service. When an Order has been filled, depending on the EnableAutoOrderSwitching toggle, it will be marked as Completed, send to ERP, and can also automatically start the next Order in the queue. This allows for a manufacturing line to continue a steady stream of production, and allow multiple Orders to be filled, labeled, and verified automatically.

@@ -1,5 +1,3 @@
-## Configuration
-
 During installation, PalletWorks offers several optional switches to be enabled dependant upon the manufacturing line's requirements. You can see which options are enabled in the Portal Settings page. Below is a list of optional settings configured upon installation:
 
 ### Print Provider

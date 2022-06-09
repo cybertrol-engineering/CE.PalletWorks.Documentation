@@ -1,4 +1,3 @@
-## Definitions
 
 PalletWorks - Software product solution that enables automated tracking and labeling of items being outputted from a manufacturing line.<br>
 Order - A production request to produce a set amount of items on a production line for a specifed product.<br>

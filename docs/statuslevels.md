@@ -1,5 +1,3 @@
-## Status Levels
-
 <b>Order Status Levels</b>
 <ul>
     <li>On Hold - Order that has not started, and should be excluded from auto-starting (if enabled)</li>
