@@ -32,9 +32,10 @@ plugins:
 nav:
     - Home:
         - Overview: index.md
+        - Definitions: definitions.md
         - Installation: installation.md
         - Configuration: configuration.md
-        - Definitions: definitions.md
+        - Administration: administration.md
         - Status Levels: statuslevels.md
         - Services: services.md
         - Getting Started: gettingstarted.md
