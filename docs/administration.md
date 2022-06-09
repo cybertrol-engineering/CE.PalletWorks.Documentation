@@ -50,3 +50,23 @@ Next, add a Product record for each product you will be producing on your line. 
 | SampleInterval | Optional field to specify the interval that a Product should be marked as a Sample | 
 
 > Note: All of this information is availalbe to be printed on your Item Label
+
+### Print Mappings
+
+Lastly, set up the Print Mappings. This matches print jobs coming in from a production line to a specific printer, by job role.
+
+![](images/printmapping-index.jpg)
+
+Select "Add Print Mapping" to add a new mapping.
+
+![](images/printmapping-add.jpg)
+
+| Field | Comment |
+| ---------- | ---------------------------|
+| Production Line | Select a production line that was previously added |
+| Printer | Select a printer as set up from your print provider |
+| Labels | Select a label available from your print provider |
+| Print Job Type | Select "Item" or "Pallet" to specify the label type | 
+| Printer Role | Select a printer role. "Primary" will print a standard label. "Secondary" would be used for automatic failover when primary fails. "Re-Print" is used specifically for off-the-line label reprints. "Rejected" would be used for specifically printing a reject label, or from a reject station.  | 
+
+
