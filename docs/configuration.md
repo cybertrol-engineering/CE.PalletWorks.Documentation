@@ -37,9 +37,15 @@ This option will enable whether completed Orders should automatically send to th
 Within PalletWorks, there are three main grids that display information: Orders, Pallets and Items. The columns visible and what the titles are called can all be customized through the appsettings.json file.
 
 ### CustomPropertyTitles
-Contains a list of overwriting the default title names with a custom title: "Product.LabelData1": "Allergy Statement"<br>
+Contains a list of overwriting the default title names with a custom title: 
+```json
+"Product.LabelData1": "Allergy Statement",
+```
 
 ### EntityPropertyHidden
-Contains a list of columns and fields to be hidden, both within a grid and on the detail pages as well:  "Product.LabelData2": "true"<br>
+Contains a list of columns and fields to be hidden, both within a grid and on the detail pages as well: 
+```json
+ "Product.LabelData2": "true",
+ ```
 
 During installation, a technician will review all the options and set up the customized values as desired to customize the Portal's views.
