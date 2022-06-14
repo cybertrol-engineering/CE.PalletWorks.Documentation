@@ -1,4 +1,4 @@
-During installation, PalletWorks offers several optional switches to be enabled dependant upon the manufacturing line's requirements. You can see which options are enabled in the Portal Settings page. Below is a list of optional settings configured upon installation:
+During installation, PalletWorks offers several optional switches to be enabled dependent upon the manufacturing line's requirements. You can see which options are enabled in the Portal Settings page. Below is a list of optional settings configured upon installation:
 
 ### PrintProvider
 
@@ -6,11 +6,11 @@ PalletWorks is designed to primarily work with two label design and printing sol
 
 ### EnableMultipleActiveOrders
 
-When this switch is enabled, multiple Orders can be started simultanously on each production line. In order for this feature to work, Product Ids must be sent through the PLC so that PalletWorks knows which Order to assocated newly created Items to. The default is to set this option as False, thereby allowing only one active Order at a time on each Production Line.
+When this switch is enabled, multiple Orders can be started simultaneously on each production line. In order for this feature to work, Product Ids must be sent through the PLC so that PalletWorks knows which Order to associated newly created Items to. The default is to set this option as False, thereby allowing only one active Order at a time on each Production Line.
 
 ### EnableAutoOrderSwitching
 
-Orders have a quantity value indicating a total of items requested to be produced and associated with that Order. When that Order Quanitity has been reached, this option will automatically select the next pending Order on that Production Line waiting to be executed against.
+Orders have a quantity value indicating a total of items requested to be produced and associated with that Order. When that Order Quantity has been reached, this option will automatically select the next pending Order on that Production Line waiting to be executed against.
 
 ### EnableAutoPalletCreation
 

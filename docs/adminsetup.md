@@ -1,4 +1,4 @@
-After installation, a PalletWorks Administrator should go through the process of setting up the enviroment in preparation for Orders.
+After installation, a PalletWorks Administrator should go through the process of setting up the environment in preparation for Orders.
 
 ### Production Lines
 
@@ -46,7 +46,7 @@ Next, add a Product record for each product you will be producing on your line. 
 | MinWeight | Optional minimum acceptable weight for product. Can optionally trigger reject if outside of range. | 
 | MaxWeight | Optional maximum acceptable weight for product. Can optionally trigger reject if outside of range. | 
 | FullPalletQuantity | Optional value to record how many quantities of this item can fit on your pallet. Used for detecting when a pallet is full. |
-| FullPalletQuantityUOM | Unit of Measure to indicate when a pallet is full, eg. ea, lbs, etc. |
+| FullPalletQuantityUOM | Unit of Measure to indicate when a pallet is full, eg. each, lbs, etc. |
 | SampleInterval | Optional field to specify the interval that a Product should be marked as a Sample | 
 
 > Note: All of this information is available to be optionally be printed on your Item Label

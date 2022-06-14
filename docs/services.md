@@ -1,7 +1,7 @@
 The PalletWorks product consists of a collection of the following services:
 
 <ul>
-    <li>Services Platform (contains all the neccesary tools to host the services)</li>
+    <li>Services Platform (contains all the necessary tools to host the services)</li>
     <li>PalletWorks Service (main application as a service)</li>
     <li>PalletWorks Portal (web-based portal as a primary interface)</li>
     <li>PLC Service (for brokering messages between PLCs and PalletWorks service)</li>
