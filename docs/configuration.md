@@ -6,7 +6,7 @@ PalletWorks is designed to primarily work with two label design and printing sol
 
 ### EnableMultipleActiveOrders
 
-When this switch is enabled, multiple Orders can be started simultaneously on each production line. In order for this feature to work, Product Ids must be sent through the PLC so that PalletWorks knows which Order to associated newly created Items to. The default is to set this option as False, thereby allowing only one active Order at a time on each Production Line.
+When this switch is enabled, multiple Orders can be started simultaneously on each production line. For this feature to work, Product Ids must be sent through the PLC so that PalletWorks knows which Order to associated newly created Items to. The default is to set this option as False, thereby allowing only one active Order at a time on each Production Line.
 
 ### EnableAutoOrderSwitching
 
@@ -22,7 +22,7 @@ When a Pallet has been fully stacked and this feature is enabled, it will automa
 
 ### EnableSamples
 
-PalletWorks supports automatically marking Items as a Sample on a specified interval based on each Product. When this option is enabled and the sample counter interval has been hit (as set in the Product), it will flag an optional value in the Item object as a Sample, where it can be diverted to a different physical path, decline having a label printed on it, or print an alternate label instead.
+PalletWorks supports automatically marking Items as a Sample on a specified interval based on each Product. When this option is enabled and the sample counter interval has been hit (as set in the Product), it will flag an optional value in the Item object as a Sample, where it can be diverted to a different physical path, decline having a label printed on it or print an alternate label instead.
 
 ### ERPEnabled
 

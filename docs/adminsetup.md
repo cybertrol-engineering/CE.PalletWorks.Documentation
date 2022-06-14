@@ -49,11 +49,11 @@ Next, add a Product record for each product you will be producing on your line. 
 | FullPalletQuantityUOM | Unit of Measure to indicate when a pallet is full, eg. each, lbs, etc. |
 | SampleInterval | Optional field to specify the interval that a Product should be marked as a Sample | 
 
-> Note: All of this information is available to be optionally be printed on your Item Label
+> Note: All of this information is available to optionally be printed on your Item Label
 
 ### Print Mappings
 
-Lastly, set up the Print Mappings. This matches print jobs coming in from a production line to a specific printer, by job role.
+Lastly, set up the Print Mappings. This matches a print job coming in from a production line to a specific printer, by job role.
 
 ![](images/printmappings-index.jpg)
 

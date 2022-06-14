@@ -32,7 +32,7 @@ When you need to correct data, the best tool is to use the Bulk Update feature, 
     <li>Send to Quality Control</li>
     <li>Send to ERP</li>
 </ul>
-<i>Note: If an action will also affect all associated Items, a warning will display.</i>
+> Note: If an action also affects any associated Items, a warning will display.
 
 <b>Items</b>
 <ul>
