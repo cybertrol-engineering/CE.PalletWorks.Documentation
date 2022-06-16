@@ -1,8 +1,8 @@
-During installation, PalletWorks offers several optional switches to be enabled dependent upon the manufacturing line's requirements. You can see which options are enabled in the Portal Settings page. Below is a list of optional settings configured upon installation:
+During installation, PalletWorks offers several optional features to be enabled dependent upon the manufacturing line's requirements. You can see which options are enabled in the Portal Settings page. Below is a list of optional settings configured upon installation:
 
 ### PrintProvider
 
-PalletWorks is designed to primarily work with two label design and printing solutions: Bartender 2022 Automation Edition and NiceLabel 10 PowerForms Suite. During installation, a PalletWorks installer will select which label printing provider will be configured for automated label printing.
+PalletWorks is designed to primarily work with the printing solution: Bartender 2022 Automation Edition. This option will allow future integration with other printing solutions via API once available. 
 
 ### EnableMultipleActiveOrders
 
@@ -34,7 +34,7 @@ This option will enable whether completed Orders should automatically send to th
 
 ## Customizing Table Columns
 
-Within PalletWorks, there are three main grids that display information: Orders, Pallets and Items. The columns visible and what the titles are called can all be customized through the appsettings.json file.
+Within PalletWorks, there are three main grids that display information: Orders, Pallets and Items. The columns visible and what the titles are called can all be customized through the `appsettings.json` file.
 
 ### CustomPropertyTitles
 Contains a list of overwriting the default title names with a custom title: 
