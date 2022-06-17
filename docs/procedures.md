@@ -8,7 +8,11 @@ When creating an Order, either through the Portal or automatically through an ER
 
 ### Switching Orders
 
-Switching which Order is active works differently depending on the "EnableMultipleActiveOrders" switch. If this switch is enabled, then you must individually start and stop each Order in the details page one at a time, and the system will only allow one unique Product code running at a time on each line. If "EnableMultipleActiveOrders" is disabled (the default), then only one Order will be allowed to be active at a time for the entire Production Line. In this mode, when you start and Order, it will auto=pause any currently running Order on that production line.
+Switching which Order is active works differently depending on the "EnableMultipleActiveOrders" switch. 
+
+If this switch is enabled, then you must individually start and stop each Order in the details page one at a time, and the system will only allow one unique Product code running at a time on each line. 
+
+If "EnableMultipleActiveOrders" is disabled (the default), then only one Order will be allowed to be active at a time for the entire Production Line. In this mode, when you start and Order, it will auto-pause any currently running Order on that production line.
 
 ### Units of Measure
 
