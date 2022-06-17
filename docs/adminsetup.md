@@ -48,6 +48,8 @@ Next, add a Product record for each product you will be producing on your line. 
 | FullPalletQuantity | Optional value to record how many quantities of this item can fit on your pallet. Used for detecting when a pallet is full. |
 | FullPalletQuantityUOM | Unit of Measure to indicate when a pallet is full, eg. each, lbs, etc. |
 | SampleInterval | Optional field to specify the interval that a Product should be marked as a Sample | 
+| FullPalletQuantityUOM | Required field to set the Unit of Measure for this Product |
+| BestByOffset | Optional field to specify how many days from current date the Best By date should be set as during item creation |
 
 > Note: All of this information is available to optionally be printed on your Item Label
 

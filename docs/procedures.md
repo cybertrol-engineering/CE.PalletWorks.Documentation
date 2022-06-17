@@ -6,6 +6,14 @@ At the beginning of your production day, at least one Order must be added and ma
 
 When creating an Order, either through the Portal or automatically through an ERP Integration Service, an optional field to set the Best By date is available for all Items created in that Order. If that value is not specified, the Item create step will check for an optional field in that Product called Best By Interval, where it will take the current date and add x amount of days based on the Offset value. If no value exists for either, then no Best By date will be added to the Item record.
 
+### Switching Orders
+
+Switching which Order is active works differently depending on the "EnableMultipleActiveOrders" switch. If this switch is enabled, then you must individually start and stop each Order in the details page one at a time, and the system will only allow one unique Product code running at a time on each line. If "EnableMultipleActiveOrders" is disabled (the default), then only one Order will be allowed to be active at a time for the entire Production Line. In this mode, when you start and Order, it will auto=pause any currently running Order on that production line.
+
+### Units of Measure
+
+During installation of PalletWorks, allowed units of measure will be set and populate in the Product edit page "FullPalletQuantityUOM" dropdown. This sets the unit of measure of any items created with this Product record. If the unit of measure is set to "ea", then item quantities and order fulfillment totals will be used by counting units created and stacked in that Order. If the unit of measure is set to any other value such as "lbs" or "kgs", then Order totals will be calculated from the Net weight of all items created and stacked in that Order.
+
 ### Filtering Views
 
 The dropdown filters that on the Order, Pallet and Item pages are included to help you customize a view that best suits your operator needs. When you make selections to a dropdown, such as Production Line or Status, it will re-load the page with those filters selected so that you can bookmark that view into your Favorites. This allows you to quickly access views that best suit your needs.
