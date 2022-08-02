@@ -34,8 +34,8 @@ PalletWorks offers three different pricing levels: Basic, Pro and Enterprise. Be
 
 | Feature | Basic | Pro | Enterprise |
 | ------------- |:-------------:|:-------------:|:-------------:|
-| PLC/HMI Integration | &#9744; | &#9745; | &#9745; |
 | REST API Endpoints | &#9745; | &#9745; | &#9745; |
+| PLC/HMI Integration | &#9744; | &#9745; | &#9745; |
 | Customized ERP Integration | &#9744; | &#9745; | &#9745; |
 
 ### Security
