@@ -59,3 +59,27 @@ When you need to correct data, the best tool is to use the Bulk Update feature, 
 ### Managing the Manufactured Date
 
 On the Order edit page, you have the option to manually adjust the Manufactured Date that will be printed onto the labels. Adjust as needed.
+
+### Overrides
+
+An optional feature is the ability to "override" the Product Id/Name and Best By date of the currently running order. This feature can be enabled per manufacturing line. The use case is for manufacturers who are processing and fulfilling a main order, but deviate from that order temporarily to fill another product type or divert towards a separate process. This feature can enabled and disabled as needed within the Portal.
+
+To enable, first a production line overrides must be set. Select the values desired to cause any items created on your production line to use those values:
+
+![](images/productionline-overrideset.jpg)
+
+Products can also be set to require an override to be set before they can be started:
+
+![](images/product_overrideoption.jpg)
+
+Once an override is active, it will be visible on the Orders page:
+
+![](images/productionline-override-active2.jpg)
+
+It will also show as active on the Order details page:
+
+![](images/productionline-override-active.jpg)
+
+To de-active, simply clear the values of the overrides on the Production Line page:
+
+![](images/productionline-override.jpg)
