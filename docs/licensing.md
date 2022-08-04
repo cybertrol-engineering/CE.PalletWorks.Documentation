@@ -23,6 +23,7 @@ PalletWorks offers three different pricing levels: Basic, Pro and Enterprise. Be
 | Feature | Basic | Pro | Enterprise |
 | ------------- |:-------------:|:-------------:|:-------------:|
 | Automatically Print Pallet Labels | &#9745; | &#9745; | &#9745; |
+| Sequence Items Created | &#9745; | &#9745; | &#9745; |
 | Automatic Order Switching | &#9744; | &#9745; | &#9745; |
 | Upstream Printing | &#9744; | &#9745; | &#9745; |
 | Sample Tagging | &#9744; | &#9744; | &#9745; |
