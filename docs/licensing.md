@@ -44,8 +44,9 @@ PalletWorks offers three different pricing levels: Basic, Pro and Enterprise. Be
 | Feature | Basic | Pro | Enterprise |
 | ------------- |:-------------:|:-------------:|:-------------:|
 | Basic Logins | &#9745; | &#9745; | &#9745; |
-| Active Directory Authentication | &#9744; | &#9745; | &#9745; |
 | Docker Containers with Kubernetes Support | &#9745; | &#9745; | &#9745; |
+| Active Directory Authentication | &#9744; | &#9745; | &#9745; |
+
 
 ### Support
 
