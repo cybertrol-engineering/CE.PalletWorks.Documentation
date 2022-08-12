@@ -51,7 +51,7 @@ Contains a list of columns and fields to be hidden, both within a grid and on th
  ### GridColumnWidths
  Column widths can be set to a specific integer value to display the desired layout:
  ```json
- "Order.ProductName": 150,
+ "Order.ProductName": 150
  ```
- 
+
 During installation, a technician will review all the options and set up the customized values as desired to customize the Portal's views.
