@@ -48,7 +48,7 @@ Contains a list of columns and fields to be hidden, both within a grid and on th
  "Product.LabelData2": "true",
  ```
 
- ### GridColumnWidths
+### GridColumnWidths
  Column widths can be set to a specific integer value to display the desired layout:
  ```json
  "Order.ProductName": 150
