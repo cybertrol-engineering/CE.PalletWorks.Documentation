@@ -35,7 +35,7 @@ nav:
         - Definitions: definitions.md
         - Installation: installation.md
         - Configuration: configuration.md
-        - Admin Setup: adminsetup.md
+        - Production Line Setup: adminsetup.md
         - Status Levels: statuslevels.md
         - Services: services.md
         - Getting Started: gettingstarted.md
