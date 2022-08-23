@@ -83,3 +83,11 @@ It will also show as active on the Order details page:
 To de-active, simply clear the values of the overrides on the Production Line page:
 
 ![](images/productionline-override.jpg)
+
+### Sequencing
+
+The sequencing feature allows for newly created items to have an auto-incrementing number be added as a property of your item. This feature is used for when you want to track or print on a label the sequence of items created on your production line for that given production run or day. This data can also be pushed to a pallet label to include the item numbers on that production run that have been added to that pallet. (Example: Items 24-32 On Pallet)
+
+Operators can reset the sequence by line by using the Sequencing box on the Orders page.
+
+![](images/sequencing.jpg)
