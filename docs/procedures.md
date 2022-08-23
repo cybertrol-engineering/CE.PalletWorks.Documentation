@@ -91,3 +91,5 @@ The sequencing feature allows for newly created items to have an auto-incrementi
 Operators can reset the sequence by line by using the Sequencing box on the Orders page.
 
 ![](images/sequencing.jpg)
+
+> Note: Manually adding items through the Add Items button on the Orders page will NOT auto-increment the sequence number. Sequence numbers are only assigned through automated proccesses.
