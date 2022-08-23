@@ -93,3 +93,13 @@ Operators can reset the sequence by line by using the Sequencing box on the Orde
 ![](images/sequencing.jpg)
 
 > Note: Manually adding items through the Add Items button on the Orders page will NOT auto-increment the sequence number. Sequence numbers are only assigned through automated proccesses.
+
+### Upstream Printing
+
+The Upstream printing feature allows you to set a Best By Date on a printer "up stream" from the PalletWorks process. The common use-case is for sending a print job to an ink printer that sprays the Best By date on a product before it is registered as a new product within the PalletWorks system.
+
+If this feature is enabled, Upstream printing commands are sent at the start of an Order automatically, or can be manually sent via the action button on the Order details page prior to starting an Order.
+
+![](images/upstreamprinting.jpg)
+
+> Note: Upstream printing also requires a Print Mapping be configured with the "Upstream" role prior to starting any Order.
