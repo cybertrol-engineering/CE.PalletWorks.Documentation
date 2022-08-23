@@ -103,3 +103,8 @@ If this feature is enabled, Upstream printing commands are sent at the start of 
 ![](images/upstreamprinting.jpg)
 
 > Note: Upstream printing also requires a Print Mapping be configured with the "Upstream" role prior to starting any Order.
+
+### Production Totals
+
+The Production Totals grid displays an active count of total items produced by Product id, based on the current filters you have selected. Changing the filters could affect the production total values displayed.
+
