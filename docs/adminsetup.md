@@ -4,7 +4,7 @@ After installation, a PalletWorks Administrator should go through the process of
 
 ![](images/productionline-index.jpg)
 
-Start by hitting "Add Production Line" to set up a line to run Orders on. 
+Start by clicking "Add Production Line" to set up a line to run Orders on. 
 
 ![](images/productionline-add.jpg)
 
