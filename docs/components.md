@@ -18,5 +18,5 @@ PalletWorks is a multi-component software solution that can be configured to wor
 | PLC | Production line server that facilitates communication between other hardware devices, and the software PLC Service (above) | Any modern Rockwell PLC is compatible |
 | HMI Views | Provides operators a read-only view of PalletWorks actions and statuses | Requires Rockwell ViewSE |
 | Scanner | Camera vision systems that can capture and read barcodes | Highly configurable based on vendor |
-| Photo-eyes | Sends signals when triggered to PLC for physical activity on the production line |  |
+| Photo-eyes | Sends signals to PLC when triggered of physical activity on the production line |  |
 | Weigh scale | Weights the newly created product | Provided by the client's production line, used to trigger the instance of a new item produced |
