@@ -9,6 +9,7 @@ PalletWorks is a multi-component software solution that can be configured to wor
 | PLC Service | Microservice that handles exchanging PLC tags with PalletWorks Service | Can be used for other applications via configuration |
 | Printing Service | Microservice that handles communication between Bartender and PalletWorks Service | Used for sending print jobs to printers, and getting available printers and labels |
 | Logging Service | Microservice that handles storing and retrieving events for all the microservices | Data is stored in a PostgreSQL database on server | 
+| Integration Service | Handles syncing data between PalletWorks and the client's ERP system | Optional custom project built per-client |
 | Bartender | Required 3rd Party software that performs label design and printing, and print drivers | |
 
 ### Hardware Components
