@@ -33,6 +33,7 @@ nav:
     - Home:
         - Overview: index.md
         - Definitions: definitions.md
+        - Components: components.md
         - Installation: installation.md
         - Configuration: configuration.md
         - Production Line Setup: adminsetup.md
