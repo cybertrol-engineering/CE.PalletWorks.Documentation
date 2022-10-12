@@ -4,8 +4,8 @@ Founded in 1996, Cybertrol Engineering is a nationwide CSIA certified industry-l
 
 With a deep history in manufacturing intelligence, Cybertrol’s solutions help clients across industries like dairy and cheese, food and beverage, industrial, and life sciences to effectively view and analyze operations by providing plantwide information systems at each site, aggregating data for enterprise dashboards, and implementing proven manufacturing intelligence strategies.  For more information, visit Cybertrol Engineering’s website at [http://www.cybertrol.com](http://www.cybertrol.com) .
 
-<b>Minneapolis - Main Office</b>
-2950 Xenium Ln N, Ste. 130
-Minneapolis, MN 55441
-Phone: 763-559-8660
+<b>Minneapolis - Main Office</b><br>
+2950 Xenium Ln N, Ste. 130<br>
+Minneapolis, MN 55441<br>
+Phone: 763-559-8660<br>
 
