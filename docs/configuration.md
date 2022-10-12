@@ -32,6 +32,26 @@ When this option is enabled, it allows data created within PalletWorks to be sub
 
 This option will enable whether completed Orders should automatically send to the ERP system the collected data, or allow a manual review by an operator before submitting newly created inventory.
 
+### EnableOverrides
+
+This option will allow the Product Id and/or Best By Date of items produced on a line to be overridden at the Production Line level. While this feature is active, any items produced on the line will use the values set in the Overrides section instead of the default Order values.
+
+### DefaultOrderDateOffset
+
+This sets the default view of Orders filtered by a date offset. To see yesterday's orders by default, use "-1" as a value. To use the current date, use "0" as the value in this setting. To view all orders by default, keep this value of null.
+
+### EnableUpstreamPrinting
+
+When this option is enabled, the Upstream Printing option will be visible on the Orders page. It allows a print command to be sent to a printer "up stream" from the packaging process. This feature is most often used to send a "Best By" date to a printer that labels an item before it gets packaged.
+
+### EnableProductLabels
+
+This feature is only available for Enterprise level licenses, and allows labels to be customized by Product Ids/SKU. By default, all products will use the same label template and dynamically replace the text within the label for the product. Enabling this feature, allows a per-product label template to be utilized.
+
+### EnableMultiOrderPallet
+
+When this feature is enabled, multiple orders can be stacked onto one pallet. When this feature is disabled, a new pallet will get created when an Order is fulfilled, even if the pallet isn't full.
+
 ## Customizing Table Columns
 
 Within PalletWorks, there are three main grids that display information: Orders, Pallets and Items. The columns visible and what the titles are called can all be customized through the `appsettings.json` file.
