@@ -18,3 +18,7 @@ PalletWorks 2.0 includes everything required for an enterprise-level tracking an
 ●	Leverages HMI screens to highlight hardware statuses<br>
 ●	Integrates easily into any modern control system or manufacturing environment<br>
 ●	Cybertrol Engineering supports PalletWorks with 24/7/365 support, including remote monitoring, diagnostics, and troubleshooting.<br>
+
+### Copyright
+
+Cybertrol Engineering © Copyright 2022. All rights reserved.
