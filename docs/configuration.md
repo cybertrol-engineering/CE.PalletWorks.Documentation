@@ -52,6 +52,10 @@ This feature is only available for Enterprise level licenses, and allows labels 
 
 When this feature is enabled, multiple orders can be stacked onto one pallet. When this feature is disabled, a new pallet will get created when an Order is fulfilled, even if the pallet isn't full.
 
+### EnableManualActions
+
+When this feature is enabled, any items added manually will not be auto-stacked onto separate pallets or auto-switch the active order. This is to allow for operators to manually add products without affecting production run counts. When this feature is disabled, any items added manually are processed against the order, and will be auto-stacked and potentially active order switched if that feature is enabled.
+
 ## Customizing Table Columns
 
 Within PalletWorks, there are three main grids that display information: Orders, Pallets and Items. The columns visible and what the titles are called can all be customized through the `appsettings.json` file.
