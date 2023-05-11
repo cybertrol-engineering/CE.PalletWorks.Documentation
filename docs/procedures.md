@@ -6,6 +6,15 @@ At the beginning of your production day, at least one Order must be added and ma
 
 When creating an Order, either through the Portal or automatically through an ERP Integration Service, an optional field to set the Best By date is available for all Items created in that Order. If that value is not specified, the Item create step will check for an optional field in that Product called Best By Interval, where it will take the current date and add x amount of days based on the Offset value. If no value exists for either, then no Best By date will be added to the Item record.
 
+Best By Dates values for created items are set in the following order of priority:
+
+<ol>
+<li>Product Best By Date Offset - Set in the Product management page, this integer calculates the current day plus the integer value you have set in the field.</li>
+<li>Order Best By Date - Each individual Order can have a specific Best By Date set, and will use this date instead of the Product's Best By Date listed above.</li>
+<li>Order Override Best By Date - If an Production Line override Best By Date value is set, then that date will be used instead of the previous two values listed above.</li>
+<li>Manual Add Product Page - On this page, when manually adding an item to an order, it will use the value as selected by the user and does not consider any other automatic values listed above. If no value is entered, no Best By Date will be attributed to that item.</li>
+</ol>
+
 ### Switching Orders
 
 Switching which Order is active works differently depending on the "EnableMultipleActiveOrders" switch. 
