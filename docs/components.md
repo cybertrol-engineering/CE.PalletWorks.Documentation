@@ -12,7 +12,7 @@ PalletWorks is a multi-component software solution that can be configured to wor
 | Integration Service | Handles syncing data between PalletWorks and the client's ERP system | Optional custom project built per-client |
 | Bartender | Required 3rd Party software that performs label design and printing, and print drivers | |
 
-![](images/softwaremap.jpg)
+[PalletWorks Software Architecture PDF](PalletWorks_Software_Architecture.pdf)
 
 ### Hardware Components
 
