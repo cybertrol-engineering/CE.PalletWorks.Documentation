@@ -4,26 +4,6 @@ During installation, PalletWorks offers several optional features to be enabled 
 
 PalletWorks is designed to primarily work with the printing solution: Bartender 2022 Automation Edition. This option will allow future integration with other printing solutions via API once available. 
 
-### EnableMultipleActiveOrders
-
-When this switch is enabled, multiple Orders can be started simultaneously on each production line. For this feature to work, Product Ids must be sent through the PLC so that PalletWorks knows which Order to associated newly created Items to. The default is to set this option as False, thereby allowing only one active Order at a time on each Production Line.
-
-### EnableAutoOrderSwitching
-
-Orders have a quantity value indicating a total of items requested to be produced and associated with that Order. When that Order Quantity has been reached, this option will automatically select the next pending Order on that Production Line waiting to be executed against.
-
-### EnableAutoPalletCreation
-
-When this option is enabled, a new electronic Pallet record will be automatically created after the current Pallet has been fully stacked. When this option is disabled, a new electronic Pallet is not automatically created and would require another service feature to create it.
-
-### EnableAutoPrintPallet
-
-When a Pallet has been fully stacked and this feature is enabled, it will automatically send a Pallet Label to the mapped printer/applicator. If this option is disabled, Pallet labels will not automatically print, and would require another service feature to send the print request.
-
-### EnableSamples
-
-PalletWorks supports automatically marking Items as a Sample on a specified interval based on each Product. When this option is enabled and the sample counter interval has been hit (as set in the Product), it will flag an optional value in the Item object as a Sample, where it can be diverted to a different physical path, decline having a label printed on it or print an alternate label instead.
-
 ### ERPEnabled
 
 When this option is enabled, it allows data created within PalletWorks to be submitted to an external ERP system. PalletWorks supports any modern ERP system that offers web-based REST or SOAP connectivity. When this option is disabled, there will be no data transmitted outside of the PalletWorks product.
@@ -46,15 +26,8 @@ When this option is enabled, the Upstream Printing option will be visible on the
 
 ### EnableProductLabels
 
-This feature is only available for Enterprise level licenses, and allows labels to be customized by Product Ids/SKU. By default, all products will use the same label template and dynamically replace the text within the label for the product. Enabling this feature, allows a per-product label template to be utilized.
+This feature allows labels to be customized by Product Ids/SKU. By default, all products will use the same label template and dynamically replace the text within the label for the product. Enabling this feature, allows a per-product label template to be utilized.
 
-### EnableMultiOrderPallet
-
-When this feature is enabled, multiple orders can be stacked onto one pallet. When this feature is disabled, a new pallet will get created when an Order is fulfilled, even if the pallet isn't full.
-
-### EnableManualActions
-
-When this feature is enabled, any items added manually will not be auto-stacked onto separate pallets or auto-switch the active order. This is to allow for operators to manually add products without affecting production run counts. When this feature is disabled, any items added manually are processed against the order, and will be auto-stacked and potentially active order switched if that feature is enabled.
 
 ## Customizing Table Columns
 

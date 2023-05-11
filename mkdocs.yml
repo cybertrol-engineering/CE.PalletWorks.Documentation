@@ -34,7 +34,8 @@ nav:
         - Definitions: definitions.md
         - Components: components.md
         - Installation: installation.md
-        - Configuration: configuration.md
+        - Global Configuration: configuration.md
+        - Production Line Options: productionlineoptions.md
         - Production Line Setup: adminsetup.md
         - Status Levels: statuslevels.md
         - Services: services.md
