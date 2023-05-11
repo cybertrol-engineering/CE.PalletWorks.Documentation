@@ -1,5 +1,7 @@
 The following options are available on a per-production line basis:
 
+![](images/ProductionLineOptions.jpg)
+
 ### Enable Multiple Active Orders
 
 When this switch is enabled, multiple Orders can be started simultaneously on each production line. For this feature to work, Product Ids must be sent through the PLC so that PalletWorks knows which Order to associated newly created Items to. The default is to set this option as False, thereby allowing only one active Order at a time on each Production Line.

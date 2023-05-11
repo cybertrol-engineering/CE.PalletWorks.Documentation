@@ -1,5 +1,7 @@
 During installation, PalletWorks offers several optional features to be enabled dependent upon the manufacturing line's requirements. You can see which options are enabled in the Portal Settings page. Below is a list of optional settings configured upon installation:
 
+![](images/GlobalOptions.jpg)
+
 ### PrintProvider
 
 PalletWorks is designed to primarily work with the printing solution: Bartender 2022 Automation Edition. This option will allow future integration with other printing solutions via API once available. 
