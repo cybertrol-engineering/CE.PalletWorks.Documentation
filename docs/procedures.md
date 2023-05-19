@@ -31,6 +31,10 @@ During installation of PalletWorks, allowed units of measure will be set and pop
 
 The dropdown filters that on the Order, Pallet and Item pages are included to help you customize a view that best suits your operator needs. When you make selections to a dropdown, such as Production Line or Status, it will re-load the page with those filters selected so that you can bookmark that view into your Favorites. This allows you to quickly access views that best suit your needs.
 
+![](images/FilterApplied.jpg)
+
+When a filter is applied, the button will glow as shown above as a visual indicator that a filter is active and may be limiting the records being displayed.
+
 ### Correcting Data
 
 When you need to correct data, the best tool is to use the Bulk Update feature, which is visible after selecting an Order, Pallet or Item from the list. After you select at least one item checkbox, the Bulk Update button will display next to the dropdowns on top of the grid. On the Bulk Update page, it will display a grid showing you the items you selected, and present action options that are available for those items. The following Bulk Update actions are available:
