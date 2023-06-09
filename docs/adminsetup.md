@@ -70,5 +70,6 @@ Select "Add Print Mapping" to add a new mapping.
 | Labels | Select a label available from your print provider |
 | Print Job Type | Select "Item" or "Pallet" to specify the label type | 
 | Printer Role | Select a printer role. "Primary" will print a standard label. "Secondary" would be used for automatic failover when primary fails. "Re-Print" is used specifically for off-the-line label reprints. "Rejected" would be used for specifically printing a reject label, or from a reject station.  | 
+| Copies | Select how many printed copies of a label you want printed upon each print job request |
 
 
