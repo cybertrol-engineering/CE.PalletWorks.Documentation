@@ -12,14 +12,14 @@ PalletWorks is a multi-component software solution that can be configured to wor
 | Integration Service | Handles syncing data between PalletWorks and the client's ERP system | Optional custom project built per-client |
 | Bartender | Required 3rd Party software that performs label design and printing, and print drivers | |
 
-[PalletWorks Software Architecture PDF](PalletWorks_Software_Architecture.pdf)
+[PalletWorks Software Architecture PDF](PalletWorks_Software_Architecture_Windows.pdf)
 
 ### Hardware Components
 
 | Component | Purpose | Notes |
 | ------------------ | --------------------------------------------------------|----------------------------------------------------- |
 | PLC | Production line server that facilitates communication between other hardware devices, and the software PLC Service (above) | Any modern Rockwell PLC is compatible |
-| HMI Views | Provides operators a read-only view of PalletWorks actions and statuses | Requires Rockwell ViewSE |
+| HMI Views | Provides operators a read-only view of PalletWorks actions and statuses | Requires Rockwell FactoryTalk Optix |
 | Scanner | Camera vision systems that can capture and read barcodes | Highly configurable based on vendor |
 | Photo-eyes | Sends signals to PLC when triggered of physical activity on the production line |  |
 | Weigh scale | Weights the newly created product | Provided by the client's production line, used to trigger the instance of a new item produced |
@@ -29,11 +29,11 @@ PalletWorks is a multi-component software solution that can be configured to wor
 <b>Supported</b>
 <ul>
     <li>PLCs: Allen Bradley 5069-L320ER (or any model compatible with Studio 5000 V32 or newer)</li>
-    <li>HMIs: Rockwell Automation FactoryTalk View Site Edition</li>
+    <li>HMIs: Rockwell Automation FactoryTalk Optix</li>
     <li>Printers: Zebra ZE511, ZD420</li>
     <li>Scanners: Zebra FS40, MC9300</li>
     <li>Applicators: Weber 5300, Panther Predator</li>
-    <li>Tablets: Zebra ET51</li>
+    <li>Tablets: Zebra ET51, and other Windows Industrial Tablets</li>
     <li>Photo-eyes: Allen Bradley 42CM</li>
     <li>Stack Lights: Werma RGY-64900005 (or any other compatible models)</a>
 </ul>

@@ -21,4 +21,4 @@ PalletWorks 2.0 includes everything required for an enterprise-level tracking an
 
 ### Copyright
 
-Cybertrol Engineering © Copyright 2023. All rights reserved.
+Cybertrol Engineering © Copyright 2024. All rights reserved.
