@@ -18,13 +18,13 @@ When this option is enabled, a new electronic Pallet record will be automaticall
 
 When a Pallet has been fully stacked and this feature is enabled, it will automatically send a Pallet Label to the mapped printer/applicator. If this option is disabled, Pallet labels will not automatically print, and would require another service feature to send the print request.
 
+### EnableUpstreamPrinting
+
+When this option is enabled, the Upstream Printing option will be visible on the Orders page. It allows a print command to be sent to a printer "up stream" from the packaging process. This feature is most often used to send a "Best By" date to a printer that labels an item before it gets packaged.
+
 ### Enable Samples
 
 PalletWorks supports automatically marking Items as a Sample on a specified interval based on each Product. When this option is enabled and the sample counter interval has been hit (as set in the Product), it will flag an optional value in the Item object as a Sample, where it can be diverted to a different physical path, decline having a label printed on it or print an alternate label instead.
-
-### Enable Overrides
-
-This option will allow the Product Id and/or Best By Date of items produced on a line to be overridden at the Production Line level. While this feature is active, any items produced on the line will use the values set in the Overrides section instead of the default Order values.
 
 ### Enable Multi Order Pallet
 

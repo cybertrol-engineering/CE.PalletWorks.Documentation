@@ -22,14 +22,9 @@ This option will allow the Product Id and/or Best By Date of items produced on a
 
 This sets the default view of Orders filtered by a date offset. To see yesterday's orders by default, use "-1" as a value. To use the current date, use "0" as the value in this setting. To view all orders by default, keep this value of null.
 
-### EnableUpstreamPrinting
-
-When this option is enabled, the Upstream Printing option will be visible on the Orders page. It allows a print command to be sent to a printer "up stream" from the packaging process. This feature is most often used to send a "Best By" date to a printer that labels an item before it gets packaged.
-
 ### EnableProductLabels
 
 This feature allows labels to be customized by Product Ids/SKU. By default, all products will use the same label template and dynamically replace the text within the label for the product. Enabling this feature, allows a per-product label template to be utilized.
-
 
 ## Customizing Table Columns
 
