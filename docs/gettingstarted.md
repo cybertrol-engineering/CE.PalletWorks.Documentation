@@ -20,8 +20,3 @@ The Items page contains a grid of all the Items within the PalletWorks system. U
 
 ![](images/items_index.jpg)
 
-### Reports
-
-The Reports page offers a production report of Items created within a specified date range. To use, select a Start Date and End Date and select the "Refresh" button to display production data. Options to export to Excel or PDF are available in the report header.
-
-![](images/reports_index.jpg)
